@@ -15,7 +15,5 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: make sdk directory writable
-      run: chmod +w /usr/local/lib/android/sdk
     - name: Build with Gradle
       run: ./gradlew build
