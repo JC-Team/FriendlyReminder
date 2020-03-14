@@ -1,0 +1,2 @@
+rootProject.name='FriendlyReminder'
+include ':app'
