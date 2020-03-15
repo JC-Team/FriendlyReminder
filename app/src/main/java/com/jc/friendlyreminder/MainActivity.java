@@ -12,21 +12,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
 
-    boolean isVisible = true;
     public void onClick(View view) {
 
         Button b = (Button) view;
-        b.setText("");
 
-        if (isVisible) {
+        if (b.getVisibility() == View.VISIBLE) {
             b.setVisibility(View.INVISIBLE);
-            isVisible = false;
-        } else {
-            b.setVisibility(View.VISIBLE);
-            isVisible = true;
         }
     }
 }
