@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FriendlyReminder</string>
+    <string name="test">20.00</string>
+    <string name="Do">Do</string>
+    <string name="Fr">Fr</string>
+    <string name="Sa">Sa</string>
+    <string name="So">So</string>
+    <string name="Mo">Mo</string>
+    <string name="Di">Di</string>
+    <string name="Mi">Mi</string>
 </resources>
